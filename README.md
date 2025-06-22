@@ -1,12 +1,20 @@
-# React + Vite
+# simple-word-manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+このプロジェクトは、React と Vite を使用して構築した、シンプルな単語管理アプリです。
 
-Currently, two official plugins are available:
+単語の追加・編集・削除といった基本的な操作を通して、Reactの状態管理やコンポーネント設計、Viteによる高速な開発環境の構築を学ぶことを目的として制作しました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## デモ
 
-## Expanding the ESLint configuration
+## 主な機能
+- 単語の追加・削除
+- 習得状態の管理
+- フィルタリング（全て/習得済み/未習得）
+- 学習進捗の表示
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 使用技術
+- **フロントエンド**  
+  - React
+  - Vite
+  - CSS
